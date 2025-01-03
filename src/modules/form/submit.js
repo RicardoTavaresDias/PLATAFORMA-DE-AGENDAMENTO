@@ -40,9 +40,11 @@ form.onsubmit = async (event) => {
     //Insere a hora na data
     const when = dayjs(selectedDate.value).add(hour, "hour")
     
+    // Corrigindo Erro na aula, id number não consegue localizar o id, tem que converte para string, so da certo com id string.
+    
     // Gera um ID
-    const id = new Date().getTime()
-
+    const id = String(new Date().getTime()) 
+    
     // Faz o agendamento.
     await scheduleNew({
       id, 
