@@ -1,9 +1,3 @@
 {
-  "schedules": [
-    {
-      "id": 1735931006794,
-      "name": "Ricardo Tavares",
-      "when": "2025-01-04T00:00:00.000Z"
-    }
-  ]
+  "schedules": []
 }
