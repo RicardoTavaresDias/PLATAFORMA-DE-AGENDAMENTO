@@ -1,0 +1,9 @@
+PARA RODAR A APLICAÇÃO
+
+
+Rodar Local host - http://localhost:3333/schedules
+npm run server
+
+
+Rodar Servidor WEB
+npm run dev
