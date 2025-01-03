@@ -14,3 +14,4 @@ export const openingHours = [
   "20:00",
   "21:00",
 ]
+
