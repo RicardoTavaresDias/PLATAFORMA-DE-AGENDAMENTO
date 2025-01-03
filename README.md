@@ -38,7 +38,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Voce pode visualizar o projeto pronto projeto através [DESSE LINK]()
+Voce pode visualizar o projeto pronto projeto através [DESSE LINK](https://ricardotavaresdias.github.io/PLATAFORMA-DE-AGENDAMENTO/)
 O Projeto Plataforma de Agendamento é um agregador de ensino na Rocketseat para avançar o conhecimento em JavaScript, Node.js, API, Babel, Webpack e Pacotes.
 
 ## 🔖 Layout
