@@ -24,7 +24,9 @@ export function hoursLoad({ date }) {
 
     li.classList.add("hour")
     li.classList.add(available ? "hour-available" : "hour") // Exemplo if (? - if e : - else)
-
+    // Correção de um erro na aula, não aparecia icon bloqueio, devido falta class hour-unavailable
+    li.classList.add(available ? "hour-available" : "hour-unavailable")
+    console.log(li)
     li.textContent = hour
 
     if (hour === "9:00") {
