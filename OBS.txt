@@ -7,3 +7,6 @@ npm run server
 
 Rodar Servidor WEB
 npm run dev
+
+
+Pasta node_modules tem que esta presente, se não tiver no cmd da comando nmp install
