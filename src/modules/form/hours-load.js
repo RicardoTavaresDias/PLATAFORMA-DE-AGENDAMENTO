@@ -2,11 +2,14 @@
 import dayjs from "dayjs"
 import { openingHours } from "../../utils/opening-hours.js"
 // Não estava na aula, para resolver o problema link do hoursClick
-import { hoursClick } from "./hours-click.js"
+import { hoursClick } from "./hours-click"
 
-const hours = document.getElementById("hours")
+const hours = document.getElementById("hours") // É a <ul>
 
 export function hoursLoad({ date }) {
+  //Limpa a lista de horários.
+  hours.innerHTML = ""
+
   const opening = openingHours.map((hour) => {
     // Recupera somente a hora.
     const [shedulesHour] = hour.split(":") //Destruturando array pegando somente antes ":"
